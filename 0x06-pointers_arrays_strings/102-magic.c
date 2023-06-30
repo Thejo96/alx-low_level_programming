@@ -13,4 +13,5 @@ int main(void)
 
 	printf("a[2] = %\n", a[2]);
 
-}	return 0;
+        return 0;
+}
