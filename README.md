@@ -12,7 +12,7 @@
 * 3- Arrays-strings
 * recursion
 ~~~~
-# LINKS OF SCREEPTS 
+# LINKS OF SCRIPTS 
 
 **VISIT**: 
 
