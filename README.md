@@ -26,6 +26,6 @@
 * [0x01](https://docs.google.com/document/d/1APA-4CStOhrDYvsb9cAtTP66o_Ny3icpuF5UMPjAaL4/edit)
 * [0x00](https://docs.google.com/document/d/1G6DezVAm_3ZVtF-mQsdYsJVCLPqxfqt6SQI5V31TI1w/edit)
 
-#CAN CLIC FOR STAR PLEASE
+# CAN CLIC FOR STAR PLEASE
 
 <img src="https://assets.skyfilabs.com/images/blog/20-best-c-programming-projects-for-beginners.webp" alt="Alt text" width="350" height="250">
