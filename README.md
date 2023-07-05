@@ -26,4 +26,4 @@
 * [0x01](https://docs.google.com/document/d/1APA-4CStOhrDYvsb9cAtTP66o_Ny3icpuF5UMPjAaL4/edit)
 * [0x00](https://docs.google.com/document/d/1G6DezVAm_3ZVtF-mQsdYsJVCLPqxfqt6SQI5V31TI1w/edit)
 
-![Alt text](C:\Users\lenovo\Desktop\pic\OUt\20230613_174122.jpg)
+[alt text](C:\Users\lenovo\Desktop\pic\OUt\20230613_174122.jpg)
