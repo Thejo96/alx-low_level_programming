@@ -14,4 +14,4 @@
 ~~~~
 # Screept of this TASK
 
-A [link](https://docs.google.com/document/d/1ajmfOT-0mKA3gEJ7DVP6lLA1cmDTc2SE0fZUzsFdHC0/edit).
+VISIT: [link](https://docs.google.com/document/d/1ajmfOT-0mKA3gEJ7DVP6lLA1cmDTc2SE0fZUzsFdHC0/edit).
