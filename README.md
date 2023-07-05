@@ -14,4 +14,6 @@
 ~~~~
 # Screept of this TASK
 
-VISIT: [link](https://docs.google.com/document/d/1ajmfOT-0mKA3gEJ7DVP6lLA1cmDTc2SE0fZUzsFdHC0/edit).
+VISIT: [link](https://docs.google.com/document/d/1ajmfOT-0mKA3gEJ7DVP6lLA1cmDTc2SE0fZUzsFdHC0/edit)
+
+* [0X07](https://docs.google.com/document/d/1ySWG3i7271JBSQ15mW1OKdyUtpduH1dnQ046KVh0Kms/edit)
