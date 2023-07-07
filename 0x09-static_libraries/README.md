@@ -1,4 +1,4 @@
-#C - Static libraries
+C - Static libraries
 
 TASKS
 
