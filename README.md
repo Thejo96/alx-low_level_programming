@@ -17,6 +17,7 @@
 **VISIT**: 
 * [0x09](https://docs.google.com/document/d/1l3pwm5IBMyp51aOYDLcaO7iKPQIv-S_dqlYm7purzLY/edit)
 ## After add all code from script you need to use this commands 
+[^1]: 0x09.
 ~~~~
 ### > gcc - *.c 
 ### > ar rcs libmy.a
