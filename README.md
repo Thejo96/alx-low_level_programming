@@ -17,14 +17,14 @@
 **VISIT**: 
 * [0x09](https://docs.google.com/document/d/1l3pwm5IBMyp51aOYDLcaO7iKPQIv-S_dqlYm7purzLY/edit)
 ## After add all code from script you need to use this commands 
-we still work on 0X09 &darr;&darr;&darr;
+### we still work on 0X09 &darr;&darr;&darr;
 ~~~~
-### > gcc - *.c 
-### > ar rcs libmy.a
-### > ar rcs libmy.a *.o
-### > ar -t libmy.a
-### > nm libmy.a  
-### > Git add and commit and push 
+### &rarr; gcc - *.c 
+### &rarr; ar rcs libmy.a
+### &rarr; ar rcs libmy.a *.o
+### &rarr; ar -t libmy.a
+### &rarr; nm libmy.a  
+### &rarr; Git add and commit and push 
 ~~~~
 * [0x08](https://docs.google.com/document/d/1ajmfOT-0mKA3gEJ7DVP6lLA1cmDTc2SE0fZUzsFdHC0/edit)
 * [0X07](https://docs.google.com/document/d/1ySWG3i7271JBSQ15mW1OKdyUtpduH1dnQ046KVh0Kms/edit)
