@@ -41,6 +41,6 @@
 
 
 
-<img src="https://assets.skyfilabs.com/images/blog/20-best-c-programming-projects-for-beginners.webp" alt="Alt text" width="350" height="250">
+<img src="https://webimages.mongodb.com/_com_assets/cms/l3etz1z9tduxvdoni-c.svg?auto=format%2Ccompress&ch=DPR&w=135" alt="Alt text" width="350" height="250">
 
 
