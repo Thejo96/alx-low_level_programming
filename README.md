@@ -22,7 +22,7 @@
 ## After add all code from script you need to use this commands 
 ### we still work on 0X09 &darr;&darr;&darr;
 ~~~~
-### gcc - *.c 
+### gcc -c *.c 
 ### ar rcs libmy.a
 ### ar rcs libmy.a *.o
 ### ar -t libmy.a
