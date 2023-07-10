@@ -19,6 +19,7 @@
 
 **VISIT**: 
 * [0x0B](https://docs.google.com/document/d/11lRtqeMn6EO1lRBOnAkI3308slU6IragAKl63So4e9c/edit)
+### Work on 0X0B &darr;&darr;
 ~~~~
 * WHEN you finished the task Before add . and commit , push  The script You need to copy 1- main , 2- main , 3 -main From ALX page Add every by (Vi,VIM,Emac) using information from the home page
 * Than git add . , git commit -m "Updated" , git push
