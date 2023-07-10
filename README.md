@@ -23,7 +23,7 @@
 ### Than git add . , git commit -m "Updated" , git push
 * [0x0A](https://docs.google.com/document/d/1VMExs_UzYck9teoeIV2Oxs4ELT9I4fDOQycA7X52WwU/edit)
 * [0x09](https://docs.google.com/document/d/1l3pwm5IBMyp51aOYDLcaO7iKPQIv-S_dqlYm7purzLY/edit)
-## After add all code from script you need to use this commands 
+#### After add all code from script you need to use this commands 
 ### we still work on 0X09 &darr;&darr;&darr;
 ~~~~
 ### gcc -c *.c 
