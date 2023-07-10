@@ -19,8 +19,8 @@
 
 **VISIT**: 
 * [0x0B](https://docs.google.com/document/d/11lRtqeMn6EO1lRBOnAkI3308slU6IragAKl63So4e9c/edit)
-### WHEN you finished the task Before add . and commit , push  The script You need to copy 1- main , 2- main , 3 -main From ALX page Add every by Vi using information from the home page
-## Than git add . , git commit -m "Updated" , git push
+#### WHEN you finished the task Before add . and commit , push  The script You need to copy 1- main , 2- main , 3 -main From ALX page Add every by Vi using information from the home page
+### Than git add . , git commit -m "Updated" , git push
 * [0x0A](https://docs.google.com/document/d/1VMExs_UzYck9teoeIV2Oxs4ELT9I4fDOQycA7X52WwU/edit)
 * [0x09](https://docs.google.com/document/d/1l3pwm5IBMyp51aOYDLcaO7iKPQIv-S_dqlYm7purzLY/edit)
 ## After add all code from script you need to use this commands 
