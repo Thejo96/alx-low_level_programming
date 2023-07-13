@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 Hello 
 =======
 ##c - malloc, free
