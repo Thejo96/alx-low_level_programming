@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-Hello World 
+Hello 
 =======
 ##c - malloc, free
 
@@ -68,8 +67,4 @@ Note that we will compile with your alloc-grid.c file. Make sure it compiles.
 - Returns NULL if str == NULL or str == ""
 - If your function fails, it should return NULL
 
->>>>>>> origin/master
-=======
-# Project 
-0x0C .c-More malloc, free
 >>>>>>> origin/master
