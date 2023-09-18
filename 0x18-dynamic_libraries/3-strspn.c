@@ -1,28 +1,25 @@
-#include "main.h"
-
+#include "holberton.h"
 /**
- * _strspn - gets the length of a prefix substring.
- * @s: initial segment.
- * @accept: accepted bytes.
- * Return: the number of accepted bytes.
+ * _strspn - finds the length of a prefix substring
+ * @s: the string
+ * @accept: the characters that are being matched
+ * Return: the length of a prefix substring
  */
 unsigned int _strspn(char *s, char *accept)
 {
-	unsigned int i, j, k;
+	char *p = s;
+	char *o = accept;
+	int len = 0, i, k;
 
-	for (i = 0; *(s + i) != '\0'; i++)
+	for (i = 0; p[i] != '\0'; i++)
 	{
-		k = 1;
-		for (j = 0; *(accept + j) != '\0'; j++)
-		{
-			if (*(s + i) == *(accept + j))
-			{
-				k = 0;
-				break;
-			}
-		}
-		if (k == 1)
+		if (len != i)
 			break;
+		for (k = 0; o[k] != '\0'; k++)
+		{
+			if (p[i] == o[k])
+				len++;
+		}
 	}
-	return (i);
+	return (len);
 }
