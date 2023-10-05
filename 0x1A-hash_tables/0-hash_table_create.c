@@ -35,4 +35,3 @@ hash_table_t *hash_table_create(unsigned long int size)
 		hash_table->array[hsh_tb] = NULL;
 	return (hash_table);
 }
-
