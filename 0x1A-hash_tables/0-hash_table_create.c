@@ -1,59 +1,32 @@
 #include "hash_tables.h"
-/**
- * free_hash_table - Frees a hash table and its nodes.
- * @ht: The hash table to be freed.
- */
-void free_hash_table(hash_table_t *ht)
-{
-    unsigned long int i;
-    hash_node_t *node, *temp;
-
-    if (ht == NULL)
-        return;
-
-    for (i = 0; i < ht->size; i++)
-    {
-        node = ht->array[i];
-        while (node)
-        {
-            temp = node->next;
-            free(node->key);
-            free(node->value);
-            free(node);
-            node = temp;
-        }
-    }
-
-    free(ht->array);
-    free(ht);
-}
 
 /**
  * hash_table_create - Creates a hash table.
- * @size: The size of the array.
+ * @size: the size, in number of nodes, to make the new hash table.
  *
- * Return: If an error occurs - NULL.
- *         else - a pointer to the new hash table.
+ * Return: a pointer to the newly created hash table.
  */
 hash_table_t *hash_table_create(unsigned long int size)
 {
-    hash_table_t *ht;
-    unsigned long int i;
+	unsigned int i = 0;
+	hash_table_t *ht = malloc(sizeof(hash_table_t));
 
-    ht = malloc(sizeof(hash_table_t));
-    if (ht == NULL)
-        return (NULL);
+	if (ht == NULL)
+	{
+		fprintf(stderr, "Error: malloc failed\n");
+		return (NULL);
+	}
 
-    ht->size = size;
-    ht->array = malloc(sizeof(hash_node_t *) * size);
-    if (ht->array == NULL)
-    {
-        free(ht);
-        return (NULL);
-    }
+	ht->size = size;
+	ht->array = malloc(sizeof(hash_node_t *) * size);
+	if (ht->array == NULL)
+	{
+		fprintf(stderr, "Error: malloc failed\n");
+		return (NULL);
+	}
 
-    for (i = 0; i < size; i++)
-        ht->array[i] = NULL;
+	for (; i < size; i++)
+		ht->array[i] = NULL;
 
-    return (ht);
+	return (ht);
 }
