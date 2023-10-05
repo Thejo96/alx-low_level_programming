@@ -1,5 +1,4 @@
 #include "hash_tables.h"
-
 /**
  * free_hash_table - Frees a hash table and its nodes.
  * @ht: The hash table to be freed.
