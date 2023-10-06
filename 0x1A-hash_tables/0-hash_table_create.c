@@ -1,3 +1,5 @@
+#include "hash_tables.h"
+
 /*
  * File_Name: 0-hash_table_create.c
  * Created: 9th June, 2023
@@ -35,4 +37,3 @@ hash_table_t *hash_table_create(unsigned long int size)
 		hash_table->array[hsh_tb] = NULL;
 	return (hash_table);
 }
-
