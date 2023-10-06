@@ -9,7 +9,6 @@
  * Status: Submitted.!
  */
 
-#include "hash_tables.h"
 
 /**
  * hash_table_create - A function that creates a Hash Table
