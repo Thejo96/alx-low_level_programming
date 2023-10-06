@@ -1,33 +1,37 @@
-#include <stdlib.h>
+/*
+ * File_Name: 0-hash_table_create.c
+ * Created: 9th June, 2023
+ * Author: David James Taiye (Official0mega)
+ * Size_Of_File: Undefined
+ * Project_Title: 0x1A-hash_tables
+ * Status: Submitted.!
+ */
+
 #include "hash_tables.h"
 
 /**
- * hash_table_create - creates a hash table
- * @size: size of the array
- * Return: pointer to the newly created hash table, or NULL on failure
+ * hash_table_create - A function that creates a Hash Table
+ * @size: The size of the array
+ *
+ * Return: A pointer to the newly created hash table, or NULL if it fails
  */
+
 hash_table_t *hash_table_create(unsigned long int size)
 {
-    hash_table_t *ht;
+    hash_table_t *hash_table;
+    unsigned long int hsh_tb;
 
-    if (size == 0)
+    hash_table = malloc(sizeof(hash_table_t));
+    if (hash_table == NULL)
         return (NULL);
-
-    ht = malloc(sizeof(hash_table_t));
-    if (ht == NULL)
-        return (NULL);
-
-    ht->size = size;
-    ht->array = malloc(sizeof(hash_node_t *) * size);
-    if (ht->array == NULL)
+    hash_table->size = size;
+    hash_table->array = malloc(sizeof(hash_node_t *) * size); // Change this line
+    if (hash_table->array == NULL)
     {
-        free(ht);
+        free(hash_table);
         return (NULL);
     }
-
-    /* Initialize all array elements to NULL */
-    for (unsigned long int i = 0; i < size; i++)
-        ht->array[i] = NULL;
-
-    return (ht);
+    for (hsh_tb = 0; hsh_tb < size; hsh_tb++)
+        hash_table->array[hsh_tb] = NULL;
+    return (hash_table);
 }
